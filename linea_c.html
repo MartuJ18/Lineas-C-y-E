@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subte CABA - Línea C</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="page-linea-c">
+
+    <header>
+        <div class="logo">SUBTE <span>CABA</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="linea_c.html" class="active linea-c-nav">Línea C</a></li>
+                <li><a href="linea_e.html" class="linea-e-nav">Línea E</a></li>
+                <li><a href="accesibilidad.html">Accesibilidad</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor-linea">
+        <section class="banner-linea c-header">
+            <h1>Línea C: Retiro - Constitución</h1>
+            <p>Eje fundamental de conectividad ferroviaria y subterránea de la Ciudad.</p>
+        </section>
+
+        <section class="recorrido-subte" style="margin-bottom: 30px;">
+            <h2>1. Esquema de la Línea y Estaciones</h2>
+            <p style="color: var(--texto-secundario); margin-bottom: 20px;">Listado ordenado de las 9 estaciones de la traza de forma consecutiva.</p>
+            <div class="timeline">
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>Retiro</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>General San Martín</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>Lavalle</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>Diagonal Norte</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>Avenida de Mayo</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>Moreno</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>Independencia</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>San Juan</h3></div></div>
+                <div class="estacion-item"><div class="punto-subte"></div><div class="estacion-info"><h3>Constitución</h3></div></div>
+            </div>
+        </section>
+
+        <section class="historia-cultura" style="margin-bottom: 30px;">
+            <h2>2. Nodos de Combinación y Conectividad con Trenes</h2>
+            <p style="color: var(--texto-secundario); margin-bottom: 20px;">Información detallada de los transbordos disponibles en cada punto estratégico:</p>
+            
+            <div class="grid-containers" style="margin-bottom: 0;">
+                <div class="container-linea-card" style="padding: 1.5rem;">
+                    <h4>Estación Retiro (Terminal)</h4>
+                    <p class="desc-txt" style="margin-bottom: 0;">
+                        <strong>Subte:</strong> Combinación directa con la <strong>Línea E</strong>.<br>
+                        <strong>Ferrocarriles:</strong> Conexión inmediata con las terminales de las líneas <strong>Mitre, San Martín y Belgrano Norte</strong>.<br>
+                        <strong>Otros:</strong> Cercanía con la Terminal de Ómnibus de Retiro y Metrobús del Bajo.
+                    </p>
+                </div>
+                <!-- BUSCÁ ESTA TARJETA Y DEJALA ASÍ (SACALE EL STYLE DEL SPAN 2) -->
+                <div class="container-linea-card">
+                    <h4>Estación Constitución (Terminal)</h4>
+                    <p class="desc-txt" style="margin-bottom: 0;">
+                        <strong>Ferrocarriles:</strong> Conectividad directa con la gran terminal del <strong>Ferrocarril General Roca</strong>.<br>
+                        <strong>Otros:</strong> Centro de Trasbordo Constitución y Metrobús Sur.
+                    </p>
+                </div>
+                <div class="container-linea-card" style="padding: 1.5rem;">
+                    <h4>Estación Avenida de Mayo</h4>
+                    <p class="desc-txt" style="margin-bottom: 0;">
+                        <strong>Subte:</strong> Combinación directa con la <strong>Línea A</strong> (Estación Lima).
+                    </p>
+                </div>
+                <div class="container-linea-card" style="padding: 1.5rem;">
+                    <h4>Estación Independencia</h4>
+                    <p class="desc-txt" style="margin-bottom: 0;">
+                            <strong>Subte:</strong> Combinación de pasillo corto con la <strong>Línea E</strong>.
+                    </p>
+                </div>
+                <div class="container-linea-card" style="padding: 1.5rem; grid-column: span 2;">
+                    <h4>Estación Constitución (Terminal)</h4>
+                    <p class="desc-txt" style="margin-bottom: 0;">
+                        <strong>Ferrocarriles:</strong> Conectividad directa con la gran terminal del <strong>Ferrocarril General Roca</strong> (vínculo clave con el sur del Gran Buenos Aires).<br>
+                        <strong>Otros:</strong> Centro de Trasbordo Constitución y Metrobús Sur.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="apartado-accesibilidad">
+            <h2>3. Infraestructura de Accesibilidad en Línea C</h2>
+            <p>Listado de estaciones adaptadas para personas con movilidad reducida:</p>
+            <div class="tabla-accesibilidad-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Estación</th>
+                            <th>Ascensor (Superficie / Andén)</th>
+                            <th>Escalera Mecánica</th>
+                            <th>Rampa / Accesos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Retiro</td><td class="check-si">✓ Disponible</td><td class="check-si">✓ Disponible</td><td class="check-si">✓ Adaptado</td></tr>
+                        <tr><td>San Juan</td><td class="check-no">✗ No disponible</td><td class="check-si">✓ Disponible</td><td class="check-no">✗ Escaleras fijas</td></tr>
+                        <tr><td>Constitución</td><td class="check-si">✓ Disponible</td><td class="check-si">✓ Disponible</td><td class="check-si">✓ Adaptado</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--texto-secundario); margin-top: 15px;">Nota: Las estaciones intermedias antiguas (Lavalle, Moreno, etc.) poseen accesibilidad parcial únicamente mediante escaleras mecánicas en sentidos específicos.</p>
+        </section>
+    </main>
+
+    <footer><p>&copy; 2026 Subte CABA - Proyecto Informativo</p></footer>
+</body>
+</html>
