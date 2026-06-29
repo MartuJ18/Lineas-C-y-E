@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
 /* ==========================================================================
    VARIABLES GLOBALES (ENFOQUE NEGRO PURO CON DETALLES NEÓN)
    ========================================================================== */
@@ -324,8 +326,7 @@ h1, h2, h3, h4 {
     border-color: #ffffff;
     background-color: var(--color-linea-c);
     box-shadow: 0 0 12px #ffffff;
-    transform: scale(1.25);
-    overflow-x: hidden; 
+    transform: scale(1.25); /* Agranda el nodo de las vías */
 }
 
 .page-linea-e .estacion-item:hover .punto-subte {
@@ -582,16 +583,24 @@ footer {
         padding: 1rem 3%;
     }
     
-    .container-linea-card {
-        grid-column: span 1 !important;
-    }
-
     .recorrido-subte, .historia-cultura, .apartado-accesibilidad {
         padding: 1.5rem;
     }
-
-    .timeline {
-        padding-left: 30px;
-        margin-left: 5px;
-    }
 }
+
+
+/* ===== COHERENCIA CON EL CENTRO DE TRANSPORTE — GRUPO 12 ===== */
+html body { font-family: 'Inter', system-ui, Arial, sans-serif; }
+html body h1, html body h2, html body h3,
+html body .logo, html body .navbar h1 {
+    font-family: 'Oswald', 'Arial Narrow', sans-serif;
+    letter-spacing: .5px;
+}
+.hub-bar-g12 {
+    background: #0B0E14; border-bottom: 1px solid #232a3a;
+    padding: 10px 20px; display: flex; align-items: center; justify-content: center;
+    gap: 14px; flex-wrap: wrap;
+    font-family: 'Inter', system-ui, Arial, sans-serif; font-size: 13px; color: #9AA4B7;
+}
+.hub-bar-g12 a { color: #F5B700; text-decoration: none; font-weight: 600; }
+.hub-bar-g12 a:hover { text-decoration: underline; }
